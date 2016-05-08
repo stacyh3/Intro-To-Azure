@@ -7,9 +7,19 @@ automate your deployments by using PowerShell and Azure Resource Manager
 (ARM) Templates. For now, let’s log on to the Azure Portal as we did in
 the first look section and create a virtual machine
 
-## New …
-    Add step here. 
+## 0. Start
+* Navigate your browser to http://portal.azure.com
+* On the left hand side of the Azure Portal click *+New*
 
+![](media/CreateVM-Portal-00.png)
+
+* Click *Virtual Machine*
+
+![](media/CreateVM-Portal-00a.png)
+
+* Click *Windows Server 2012 R2 Datacenter*
+
+![](media/CreateVM-Portal-00b.png)
 
 Make sure that the *Deployment Mode* is set to *Resource Manager* then
 click *Create*
@@ -54,7 +64,7 @@ Scroll down and select an *A0* VM size and click *Select*
 ![](media/CreateVM-Portal-07.png)
 ![](media/CreateVM-Portal-08.png)
  
- ### Network
+### Network
  * Select *Virtual network*
  * Select *Create new*
  * Supply a name for your virtual network
@@ -77,6 +87,7 @@ Scroll down and select an *A0* VM size and click *Select*
 
 ![](media/CreateVM-Portal-14.png)
 
+### Extensions
 * Click *Extensions*
 * For now, we'll leave this blank, but note that you can add extensions to the VM image. These extensions can be for monitoring, configuration, or other aspects of virtual machine management.
 * Click *OK*
@@ -87,6 +98,11 @@ Scroll down and select an *A0* VM size and click *Select*
 
 ![](media/CreateVM-Portal-16.png)
 
+### Monitoring
+* Leave monitoring set to the default 
+
+### Finish
 * Click *OK* to create your virtual machine.
 
 ![](media/CreateVM-Portal-17.png)
+
