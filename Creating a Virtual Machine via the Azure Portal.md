@@ -52,7 +52,7 @@ Next choose the size of the VM. There are some recommended VM sizes, but let's c
 
 ![](media/CreateVM-Portal-05.png)
 
-Scroll down and select an *A0* VM size and click *Select*
+Scroll down and select the *A0* VM size and click *Select*
 
 ![](media/CreateVM-Portal-06.png)
 
