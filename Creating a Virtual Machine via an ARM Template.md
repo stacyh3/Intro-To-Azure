@@ -17,6 +17,10 @@ This lab will walk you through creating a VM in Azure using an Azure Resource Ma
 * Give the project a name and location
 * Click *OK* 
 
+![](media/CreateVM-ARM-04.png)
+* In the *Select Azure Template* dialog box click *Windows Virtual Machine*
+* Click *OK*
+* Visual Studio will create a project with an ARM template and a PowerShell script that is used to deploy the template.
 
 ## 2. Examine the ARM Template
 ![](media/CreateVM-ARM-05.png)
