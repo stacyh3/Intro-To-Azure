@@ -26,7 +26,7 @@ Visual Studio will create a project with an ARM template and a PowerShell script
 ## 2. Examine the ARM Template
 ![](media/CreateVM-ARM-05.png)
 * From the *Solution Explorer*, open *WindowsVirtualMachine.json* 
-* **Important** in the JSON Outline, right click and delete the *AzureDiagnostics* extension from the Virtual Machine
+* **Note:** Update coming. We'll add the DSC extension here in addition to leaving the AzureDiagostics resource
 
 This is the ARM template. Resources and dependencies are added to this file. This instructs the Azure Resource Manager which resources to create and to order in which to create them based on dependencies.  
 
