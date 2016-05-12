@@ -106,3 +106,7 @@ Scroll down and select the *A0* VM size and click *Select*
 
 ![](media/CreateVM-Portal-17.png)
 
+Creating a VM can easily take 15-20 minutes to complete. You can watch the progress in the Azure Portal.
+
+![](media/CreateVM-Portal-18.png)
+Once your VM has been deployed, you can connect to the VM via *Remote Desktop* by clicking the *Connect* button in the Azure Portal.

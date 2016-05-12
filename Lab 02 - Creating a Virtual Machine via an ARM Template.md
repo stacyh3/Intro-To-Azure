@@ -26,6 +26,7 @@ Visual Studio will create a project with an ARM template and a PowerShell script
 ## 2. Examine the ARM Template
 ![](media/CreateVM-ARM-05.png)
 * From the *Solution Explorer*, open *WindowsVirtualMachine.json* 
+* **Important** in the JSON Outline, right click and delete the *AzureDiagnostics* extension from the Virtual Machine
 
 This is the ARM template. Resources and dependencies are added to this file. This instructs the Azure Resource Manager which resources to create and to order in which to create them based on dependencies.  
 
@@ -64,4 +65,3 @@ The first time you deploy the project, you'll choose *New Deployment*. After tha
 ![](media/CreateVM-ARM-11.png)
 
 You can watch the Visual Studio Output window to see deployment messages. You can also see deployment progress on the Azure portal. When the deployment is complete, you should see a resource group similar to the above in the Azure portal.
-
